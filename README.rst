@@ -21,7 +21,6 @@ pyEOF is a **Python** package for `EOF and Rotated EOF Analysis <https://climate
 - `sklearn.decomposition.PCA <https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html>`_ (for EOF)
 - `Advanced Priniciple Component Analysis <https://github.com/alfredsasko/advanced-principle-component-analysis>`_ (for varimax rotation //  varimax rotated EOF // REOF)
 
-
 Installation
 ------------
 
@@ -44,3 +43,13 @@ Step 2: install using pip::
     $ git clone https://github.com/zzheng93/pyEOF.git
     $ cd pyEOF
     $ python setup.py install
+
+How to use it?
+--------------
+You may reproduce the jupyter notebook example on `Binder <https://mybinder.org/v2/gh/zzheng93/pyEOF/HEAD?filepath=docs%2Fnotebooks>`_.
+
+Please check `online documentation <https://pyeof.readthedocs.io/en/latest/>`_ for more information.
+
+How to ask for help
+-------------------
+The `GitHub issue tracker <https://github.com/zzheng93/pyEOF/issues>`_ is the primary place for bug reports. 

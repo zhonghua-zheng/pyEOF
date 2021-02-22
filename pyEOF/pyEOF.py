@@ -11,7 +11,7 @@ def get_time_space(df, time_dim, lumped_space_dims):
     Parameters
     ----------
 
-    df : A `pandas.core.frame.DataFrame`, e.g., 
+    df : pandas.core.frame.DataFrame 
         | time | lat | lon | PM2.5 |
         | 2011 | 66  | 88  | 22    |
         | 2011 | 66  | 99  | 23    |
@@ -19,13 +19,16 @@ def get_time_space(df, time_dim, lumped_space_dims):
         | 2012 | 66  | 99  | 25    |
         
  
-    time_dim: time dim name (str), e.g., "time"
+    time_dim:
+        time dim name (str), e.g., "time"
     
-    lumped_space_dims: a list of the lumped space, e.g., ["lat","lon"]
+    lumped_space_dims: 
+        a list of the lumped space, e.g., ["lat","lon"]
 
     Returns
     -------
-    dataframe with [row (e.g.,time), column (e.g, space)], e.g.,
+    dataframe:  
+        with [row (e.g.,time), column (e.g, space)], e.g.,
         | time | loc1    | loc2    |
         |      | (66,88) | (66,99) |
         | 2011 | 22      | 24      |
@@ -49,12 +52,14 @@ class df_eof(object):
         Parameters
         ----------
 
-        df : A `pandas.core.frame.DataFrame` 
+        df : 
+            A `pandas.core.frame.DataFrame` 
             dim: [row (e.g.,time), column (e.g, space)]
     
         Returns
         -------
-        pca : A `df_eof` instance.
+        pca : 
+            A `df_eof` instance.
 
         """
         if scaler is True:
@@ -101,19 +106,19 @@ class df_eof(object):
 
         Parameters
         ----------
-        s : Scaling
+        s : 
+            Scaling
             0 : Un-scaled PCs (default).
-            1 : PCs are divided by the square-root 
-                of the eigenvalue
-            2 : PCs are multiplied by the square-root 
-                of the eigenvalue.
+            1 : PCs are divided by the square-root of the eigenvalue.
+            2 : PCs are multiplied by the square-root of the eigenvalue.
 
         n :
             Number of PCs to retrieve.
 
         Returns
         -------
-        pcs: A dataframe [time, PCs]
+        pcs: 
+            A dataframe [time, PCs]
 
         """
 
@@ -143,19 +148,19 @@ class df_eof(object):
 
         Parameters
         ----------
-        s : Scaling
+        s : 
+            Scaling
             0 : Un-scaled PCs (default).
-            1 : PCs are divided by the square-root 
-                of the eigenvalue
-            2 : PCs are multiplied by the square-root 
-                of the eigenvalue.
+            1 : PCs are divided by the square-root of the eigenvalue.
+            2 : PCs are multiplied by the square-root of the eigenvalue.
 
         n :
             Number of EOFs to retrieve.
 
         Returns
         -------
-        eofs : A dataframe [PCs, space]
+        eofs : 
+            A dataframe [PCs, space]
 
         """
         
@@ -185,11 +190,13 @@ class df_eof(object):
 
         Parameters
         ----------
-        n : Number of Eigenvalues to retrieve.
+        n : 
+            Number of Eigenvalues to retrieve.
 
         Returns
         -------
-        eigvals : A numpy array of Eigenvalue(s)
+        eigvals : 
+            A numpy array of Eigenvalue(s)
 
         """
 
@@ -201,11 +208,13 @@ class df_eof(object):
 
         Parameters
         ----------
-        n : Number of PCs to retrieve.
+        n : 
+            Number of PCs to retrieve.
 
         Returns
         -------
-        evf : A numpy array of variance explained by each of the selected components
+        evf : 
+            A numpy array of variance explained by each of the selected components
 
         """
 
