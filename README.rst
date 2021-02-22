@@ -1,7 +1,10 @@
 ======================================================================================
 pyEOF: Empirical Orthogonal Function (EOF) analysis and Rotated EOF analysis in Python
 ======================================================================================
-|docs| |GitHub| |binder| |license|
+|doi| |docs| |GitHub| |binder| |license|
+
+.. |doi| image:: https://zenodo.org/badge/341276703.svg
+   :target: https://zenodo.org/badge/latestdoi/341276703
 
 .. |docs| image:: https://readthedocs.org/projects/pyeof/badge/?version=latest
    :target: https://pyeof.readthedocs.io/en/latest/?badge=latest
