@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - rpy2
+  - xarray
+  - matplotlib
+  - jupyter
+  - eofs
+  - pip:
+    - pyEOF
