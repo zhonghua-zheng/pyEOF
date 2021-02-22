@@ -1,14 +1,17 @@
 ======================================================================================
 pyEOF: Empirical Orthogonal Function (EOF) analysis and Rotated EOF analysis in Python
 ======================================================================================
-|docs| |GitHub| |license|
+|docs| |GitHub| |binder| |license|
 
-.. |docs| image:: https://readthedocs.org/projects/pyEOF/badge/?version=latest
-   :target: https://pyEOF.readthedocs.io/en/latest/?badge=latest
+.. |docs| image:: https://readthedocs.org/projects/pyeof/badge/?version=latest
+   :target: https://pyeof.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
 
-.. |GitHub| image:: https://img.shields.io/badge/GitHub-clhs__py-informational.svg
+.. |GitHub| image:: https://img.shields.io/badge/GitHub-pyEOF-brightgreen.svg
    :target: https://github.com/zzheng93/pyEOF
+
+.. |binder| image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/zzheng93/pyEOF/HEAD?filepath=docs%2Fnotebooks
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-blue.svg
    :target: https://github.com/zzheng93/pyEOF/blob/master/LICENSE
