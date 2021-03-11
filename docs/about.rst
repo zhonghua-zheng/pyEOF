@@ -1,7 +1,7 @@
 About
 ======================================================================================
 
-|doi| |docs| |GitHub| |binder| |license|
+|doi| |docs| |GitHub| |binder| |license| |pepy|
 
 .. |doi| image:: https://zenodo.org/badge/341276703.svg
    :target: https://zenodo.org/badge/latestdoi/341276703
@@ -18,6 +18,9 @@ About
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-blue.svg
    :target: https://github.com/zzheng93/pyEOF/blob/master/LICENSE
+   
+.. |pepy| image:: https://static.pepy.tech/personalized-badge/pyeof?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads
+   :target: https://pepy.tech/project/pyeof
 
 pyEOF is a **Python** package for `EOF and Rotated EOF Analysis <https://climatedataguide.ucar.edu/climate-data-tools-and-analysis/empirical-orthogonal-function-eof-analysis-and-rotated-eof-analysis>`_ . It takes advantage of
 
