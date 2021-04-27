@@ -3,8 +3,8 @@ pyEOF: Empirical Orthogonal Function (EOF) analysis and Rotated EOF analysis in 
 ======================================================================================
 |doi| |docs| |GitHub| |binder| |license| |pepy|
 
-.. |doi| image:: https://zenodo.org/badge/341276703.svg
-   :target: https://zenodo.org/badge/latestdoi/341276703
+.. |doi| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4556050.svg
+   :target: https://doi.org/10.5281/zenodo.4556050
 
 .. |docs| image:: https://readthedocs.org/projects/pyeof/badge/?version=latest
    :target: https://pyeof.readthedocs.io/en/latest/?badge=latest
