@@ -11,5 +11,6 @@ dependencies:
   - matplotlib
   - jupyter
   - eofs
+  - pooch
   - pip:
     - pyEOF
