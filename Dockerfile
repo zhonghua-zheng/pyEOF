@@ -7,13 +7,13 @@ RUN conda install -y \
         xarray \
         scikit-learn \
         rpy2 \
-        xarray \
         jupyter \
         matplotlib \
         pooch \
         eofs \
-    && pip install \ 
-        pyEOF
+    && pip --no-cache-dir install \ 
+        pyEOF \
+    && conda clean --all 
 
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser",  "--ip=0.0.0.0", "--notebook-dir=/home", "--allow-root"]
 
