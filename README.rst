@@ -42,7 +42,7 @@ Step 2: install using pip::
 
 (optional) for jupyter notebook tutorial:: 
 
-    $ conda install -c conda-forge numpy pandas scipy scikit-learn rpy2 xarray matplotlib jupyter eofs
+    $ conda install -c conda-forge numpy pandas scipy scikit-learn rpy2 xarray matplotlib jupyter eofs pooch netcdf4
 
 (optional) install from source:: 
 

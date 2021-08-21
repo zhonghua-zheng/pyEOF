@@ -12,5 +12,6 @@ dependencies:
   - jupyter
   - eofs
   - pooch
+  - netcdf4
   - pip:
     - pyEOF
